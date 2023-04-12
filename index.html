@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_1693bb7e35747c2983ea1639e16016bb {
+                #map_69e0a187871a5d06450c18b17c3a5e67 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,16 +39,16 @@
 <body>
     
     
-            <div class="folium-map" id="map_1693bb7e35747c2983ea1639e16016bb" ></div>
+            <div class="folium-map" id="map_69e0a187871a5d06450c18b17c3a5e67" ></div>
         
 </body>
 <script>
     
     
-            var map_1693bb7e35747c2983ea1639e16016bb = L.map(
-                "map_1693bb7e35747c2983ea1639e16016bb",
+            var map_69e0a187871a5d06450c18b17c3a5e67 = L.map(
+                "map_69e0a187871a5d06450c18b17c3a5e67",
                 {
-                    center: [48.85341, -4.4],
+                    center: [48.0, -4.0],
                     crs: L.CRS.EPSG3857,
                     zoom: 15,
                     zoomControl: true,
@@ -60,40 +60,40 @@
 
         
     
-            var tile_layer_d9e92a932a84e9429b9f40df283c38a3 = L.tileLayer(
+            var tile_layer_90d723754e90b4c4683a3a1904fc3b5a = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_1693bb7e35747c2983ea1639e16016bb);
+            ).addTo(map_69e0a187871a5d06450c18b17c3a5e67);
         
     
-            var marker_0e2ddf851143018a4bc60e4187d6e5cf = L.marker(
-                [48.85341, -4.4],
+            var marker_5b4a31434c5c9396f7239aa593d2da67 = L.marker(
+                [48.0, -4.0],
                 {}
-            ).addTo(map_1693bb7e35747c2983ea1639e16016bb);
+            ).addTo(map_69e0a187871a5d06450c18b17c3a5e67);
         
     
-            var icon_06c54ff0b304724a383c9f155a0d6d46 = L.AwesomeMarkers.icon(
+            var icon_514f2d2d73241ff39d49a226c4bc267e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_0e2ddf851143018a4bc60e4187d6e5cf.setIcon(icon_06c54ff0b304724a383c9f155a0d6d46);
+            marker_5b4a31434c5c9396f7239aa593d2da67.setIcon(icon_514f2d2d73241ff39d49a226c4bc267e);
         
     
-        var popup_f897e3e6ce3af204fa484463607fa06c = L.popup({"maxWidth": "100%"});
+        var popup_97d5a67ceacee542edc038cdf9713bcf = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3de534dcd0672d8ca2fa95b99eb8aaf6 = $(`<div id="html_3de534dcd0672d8ca2fa95b99eb8aaf6" style="width: 100.0%; height: 100.0%;"> Latitude: 48.85341, Longitude: -4.4</div>`)[0];
-                popup_f897e3e6ce3af204fa484463607fa06c.setContent(html_3de534dcd0672d8ca2fa95b99eb8aaf6);
+                var html_257f0d8ad32cda66a1b60cf3db94ab67 = $(`<div id="html_257f0d8ad32cda66a1b60cf3db94ab67" style="width: 100.0%; height: 100.0%;"> Latitude: 48, Longitude: -4</div>`)[0];
+                popup_97d5a67ceacee542edc038cdf9713bcf.setContent(html_257f0d8ad32cda66a1b60cf3db94ab67);
             
         
 
-        marker_0e2ddf851143018a4bc60e4187d6e5cf.bindPopup(popup_f897e3e6ce3af204fa484463607fa06c)
+        marker_5b4a31434c5c9396f7239aa593d2da67.bindPopup(popup_97d5a67ceacee542edc038cdf9713bcf)
         ;
 
         
     
     
-            marker_0e2ddf851143018a4bc60e4187d6e5cf.bindTooltip(
+            marker_5b4a31434c5c9396f7239aa593d2da67.bindTooltip(
                 `<div>
                      <i>Votre proche est en difficulté ici !<i>
                  </div>`,
